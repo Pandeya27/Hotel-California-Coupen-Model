@@ -4,20 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Hotel California Coupon Modal</title>
+  <title>Hotel-california-coupen-model</title>
 </head>
 <body>
-  <button id="openModalBtn">Click to Redeem Coupon</button>
-  <div id="couponModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h2>Hotel California Coupon</h2>
-      <p>Enter the coupon code:</p>
-      <input type="text" id="couponCodeInput">
-      <button id="redeemButton">Redeem</button>
+  <header>
+    <h1>Hotel California</h1>
+    <img src="https://www.flickr.com/photos/15160035@N07/2106557752" alt="Album Cover">
+  </header>
+  <section id="aboutAlbum">
+    <h2>About the Album</h2>
+    <p>"Hotel California" a song by American rock band the Eagles, released as the second single of the album of the same name on February 22, 1977</p>
+  </section>
+  <section id="aboutSinger">
+    <h2>About the Singer/Band</h2>
+    <p></p>
+  </section>
+  <section id="redeemCouponSection">
+    <button id="openModalBtn">Click to Redeem Coupon</button>
+    <div id="couponModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Hotel California Album Coupon</h2>
+        <p>Enter the coupon code:</p>
+        <input type="text" id="couponCodeInput">
+        <button id="redeemButton" class="redeemButton">Redeem</button>
+      </div>
     </div>
-  </div>
-
+  </section>
   <script src="script.js"></script>
 </body>
 </html>
